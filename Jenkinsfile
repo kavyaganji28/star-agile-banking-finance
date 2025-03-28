@@ -3,7 +3,7 @@ pipeline{
       stages{
         stage('Git checkout'){
           steps{
-                 git 'https://github.com/kavyaganji28/Banking-java-project'
+                 git 'https://github.com/kavyaganji28/star-agile-banking-finance'
                  echo 'This is for cloning the gitrepo'
             }
         }   
